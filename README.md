@@ -1,7 +1,7 @@
 # Computational model of haemodynamics during atrial fibrillation
 Welcome to this repo containing the supplementary material for our publication 'Computational model of haemodynamics during atrial fibrillation'. 
 
-The work has been published in The Journal of Physiology with the doi: coming soon.
+The work has been published in *The Journal of Physiology* with the doi: coming soon.
 
 ## Introduction
 We developed a computational model that simulates beat-to-beat haemodynamic changes resulting from the unco-ordinated atrial and irregular electrical activation times characteristic of AF.
@@ -9,13 +9,13 @@ We developed a computational model that simulates beat-to-beat haemodynamic chan
 ![An overview figure showing a schematic for patient-specific computational models in the top left; a schematic of the electrical and mechanical subsystem in the bottom left; a schematic of simulations of haemodynamics in normal sinus rhythm and atrial fibrillation, model parameter calibration and computational efficiency.](./assets/fig1.png)
 
 ## Patient-specific model fitting
-In our study, we produced 17 patient-specific model for AF patients in the SMURF study. We fitted the model to clinical measurements in both normal sinus rhythm and atrial fibrillation.
+In our study, we produced 17 patient-specific model for AF patients in the SMURF study. We fitted the model two clinical measurements in both normal sinus rhythm and atrial fibrillation.
 
 ![Results of model fitting, where each row (P1-P17) corresponds to one patient.](./assets/fig2.png)
 Results of model fitting, where each row (P1-P17) corresponds to one patient. A, diastolic and systolic blood pressure (DBP, SBP). B, right ventricular diastolic and systolic pressure (RVDP, RVSP). C, mean left atrial pressure (LAP_avg). D, mean right atrial pressure (RAP_avg). The markers show the clinical measurements (black) and simulation results with the final parameter set, fitted using alpha_S and nu_S (blue) and using alpha_C' and nu_C (red), if available, in (top) normal sinus rhythm and (bottom) atrial fibrillation. Along the top and bottom edge of a row, the posterior distribution of the Bayesian history matching is shown from which the final parameter set was selected with the cost function J.
 
 ## User example
-Because the clinical data used for this study cannot be shared publicly with respect to participating subjects, we created to virtual patients representing the average male and average female from the SMURF dataset.
+Because the clinical data used for this study cannot be shared publicly with respect to participating subjects, we created two virtual patients representing the average male and average female from the SMURF dataset.
 
 ![User example of patient-specific model fits to an average male and average female.](./assets/fig3.png)
 
